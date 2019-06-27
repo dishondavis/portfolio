@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+header{
+  clear: both;
+  width: 100%;
+  background: rgb(91,107,127);
+}
+.header > ul{
+  list-style: none;
+  text-align: center;
+  margin: 12px -29px 0px -31px;
+    padding: 0px 0px 0px 20px;
+
+}
+.header > ul > li{
+  display: inline-block;
+}
+.header > ul > li > a{
+  text-decoration: none;
+  color: white;
+  padding-left: 22px;
+}
+
+.button_M{
+  margin: 15px 0px 0px 1086px;
+    padding: 9px 10px 8px 13px;
+    font-size: 0.9rem;
+    color: rgb(91,107,127);
+    background: white;
+    border-radius: 9px;
+    font-weight: 600;
+}
+h1{
+  font-size: 3.5rem;
+    color: white;
+    text-align: center;
+}
+h1 + h3{
+  text-align: center;
+  color: white;
+}
+.main_Con{
+  width: 100%;
+  background: rgb(91,107,127);
+}
+.main_Mini{
+  width: 90%;
+  padding-bottom: 190px;
+  padding-left: 57px;
+}
+.white_Con{
+  width: 100%;
+  margin-bottom: 168px;
+  line-height: 1.6rem;
+margin-top: 104px;
+font-size: 1.2rem;
+}
+.why_Sec{
+  width: 34%;
+  text-align: center;
+  margin-left: 459px;
+}
+.why_Sec > h2{
+  text-align: center;
+  font-size: 2.1rem;
+}
+.mid_bottom_Con{
+  width: 100%;
+ background: rgb(241,243,245);
+}
+.l_Sec{
+  width: 30%;
+  float: left;
+  line-height: 1.5rem;
+  text-align: center;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 140px;
+  margin-bottom: 110px;
+  }
+.l_Sec > p{
+  margin-bottom: 45px;
+}
+.l_Sec > img{
+    max-width: 100%;
+}
+.class_Pad{
+padding: 20px 60px 20px 60px;
+}
+.r_Sec{
+  width: 30%;
+  float: left;
+text-align: center;
+line-height: 1.5rem;
+margin-top: 140px;
+}
+.r_Sec > img{
+  max-width: 100%;
+
+}
+.r_Sec > p{
+  margin-bottom: 45px;
+}
+.hire_Pad{
+padding: 20px 80px 20px 80px;
+}
+.volunteer_Sec{
+  width: 34%;
+  text-align: center;
+  margin-left: 459px;
+  font-size: 1.5rem;
+  margin-bottom: 130px;
+}
+.volunteer_Sec > p{
+  margin-bottom: 90px;
+}
+.vol_Pad{
+  padding: 25px 88px 25px 88px;
+
+}
+.class_Pad,
+.hire_Pad,
+.vol_Pad{
+  border: 1px solid black;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.footer_Con{
+  width: 100%;
+border: 2px solid black;
+background: black;
+color: white;
+
+}
+.left_F{
+  float: left;
+  width: 30%;
+  color: white;
+  border-bottom: 2px solid white;
+  line-height: 0.4;
+  margin-left: 65px;
+    margin-top: 32px;
+}
+.right_F{
+  float: left;
+  width: 50%;
+  text-align: right;
+margin: 9px 49px 1px 0px;
+margin-left: 134px;
+}
+
+.bottom_F{
+text-align: left;
+line-height: 4;
+margin-left: 55px;
+}
+
+
+/* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW *//* TABLET VIEW */
+
+@media (min-width: 601px) and (max-width: 768px){
+  .button_M{
+    margin: 15px 0px 0px 443px;
+  }
+  .why_Sec{
+    width: 100%;
+    margin-left: 0px;
+  }
+  .l_Sec{
+    width: 50%;
+  }
+  .r_Sec{
+    margin-top: 31px;
+margin-left: 200px;
+margin-bottom: 80px;
+width: 50%
+  }
+  .volunteer_Sec{
+    width: 100%;
+    margin-left: 0px;
+
+  }
+  .right_F{
+    width: 36%;
+  }
+  .bottom_F{
+    float: left;
+  }
+
+
+}
+
+/* ################CELL PHONE VIEW########## *//* ################CELL PHONE VIEW########## *//* ################CELL PHONE VIEW########## *//* ################CELL PHONE VIEW########## *//* ################CELL PHONE VIEW########## *//* ################CELL PHONE VIEW########## *//* ################CELL PHONE VIEW########## *//* ################CELL PHONE VIEW########## *//* ################CELL PHONE VIEW########## *//* ################CELL PHONE VIEW########## */
+
+
+@media only screen and (min-width: 320px) and (max-width: 601px){
+  .button_M{
+    margin: 15px 0px 0px 83px;
+  }
+  .why_Sec{
+    width: 100%;
+    margin-left: 0px;
+  }
+  .l_Sec{
+    width: 62%;
+    margin-right: 76px;
+    margin-left: 88px;
+    margin-top: 139px;
+    margin-bottom: 110px;
+  }
+  .r_Sec{
+    margin-top: 54px;
+    margin-left: 88px;
+    margin-bottom: 100px;
+    width: 62%;
+  }
+  .volunteer_Sec{
+    width: 100%;
+    margin-left: 0px;
+  }
+  .right_F{
+        margin-left: -46px;
+  }
+  .bottom_F{
+    margin-left: 29px;
+    float: left;
+  }
+  .left_F{
+    border-bottom: 0px;
+  }
+  .main_Mini{
+    width: 100%;
+    padding-bottom: 190px;
+    padding-left: 0px;
+  }
+
+
+
+
+
+}

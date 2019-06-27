@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+header{
+  clear: both;
+  width: 100%;
+  border: 2px solid black;
+}
+.header > ul{
+  list-style: none;
+  text-align: center;
+}
+.header > ul > li{
+  display: inline-block;
+  text-align: center;
+}
+.header > ul > li > a{
+  text-align: center;
+  margin: 0px 113px 0px 10px;
+  text-decoration: none;
+  color: grey;
+}
+
+.button_M{
+  margin: 0 0 0 70px;
+  padding: 9px 40px 9px 40px;
+  font-size: 0.9rem;
+  color: white;
+  background: black;
+}
+h1{
+  font-size: 1.8rem;
+    color: gray;
+}
+.main_Con{
+  width: 100%;
+  background: rgb(241,243,245);
+}
+.main_Mini{
+  width: 90%;
+  padding-bottom: 67px;
+  padding-left: 57px;
+}
+.white_Con{
+  width: 100%;
+}
+.why_Sec{
+  width: 90%;
+}
+.mid_bottom_Con{
+  width: 100%;
+ background: rgb(241,243,245);
+}
+.l_Sec{
+  width:50%;
+  float: left;
+  line-height: 1.5rem;
+
+}
+.r_Sec{
+  width: 50%;
+  float: left;
+
+}
+.r_Sec > img{
+  max-width: 100%;
+
+}
+
+.volunteer_Sec{
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.footer_Con{
+  width: 100%;
+
+}
+.left_F{
+  float: left;
+  width: 50%;
+  color: white;
+}
+.right_F{
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.bottom_F{
+
+}
